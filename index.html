@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Home - Heart Of Harrisonburg</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initiative-scale=1.0">
+        <style>
+            * {
+                box-sizing:border-box;
+            }
+            body {
+                margin:0;
+                padding:0;
+                font-family:optima;
+                background-color:#e0b855;
+            }
+             img {
+                max-width: 100%;
+                height:auto;
+            }
+            .container > * {
+                padding:0 15px 0 15px;
+            }
+            .container {
+                display:grid;
+                grid-template-columns:repeat(4, 1fr);
+                grid-auto-rows:minmax(80px, auto);
+                grid-gap:6px;
+                grid-template-areas:
+                    "header header header header"
+                    "nav nav nav nav"
+                    "pic1 pic1 pic1 aside"
+                    "pic1 pic1 pic1 aside"
+                    "pic2 pic2 pic2 aside"
+                    "pic2 pic2 pic2 aside"
+                    "footer footer footer footer"
+                    ;
+            }
+            header {
+                grid-area:header;
+                font-size: 30px;
+                text-align: center;
+                display:flex;
+                align-items:center;
+                justify-content: center;
+                text-transform:uppercase;
+                color:#fff;
+                background-color: #8470e0;
+            }
+            nav {
+                grid-area:nav;
+                font-size: 20px;
+                text-align: center;
+                text-transform:uppercase;
+                display:flex;
+                justify-content:space-around;
+                align-items:center;
+                background-color: #8470e0;
+            }
+            nav a:link {
+                color:#fff;
+                text-decoration:none;
+            }
+            nav a:visited {
+                color:#fff;
+                text-decoration:none;
+            }
+            nav a:hover {
+                color:#e0b855;
+                text-decoration:none;
+            }
+            nav a:active {
+                color:#0000ff;
+                text-decoration:none;
+            }
+            .non-nav-link {
+                color: #e0b855;
+            }
+            .pic1 {
+                grid-area:pic1;
+                color:#fff;
+                padding-top: 10px;
+            }
+            .pic2 {
+                grid-area:pic2;
+                color:#600094;
+                text-align: left;
+            }
+            aside {
+                grid-area:aside;
+                color:#600094;
+            }
+            footer {
+                grid-area:footer;
+                color:#fff;
+                background-color: #8470e0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>Heart of Harrisonburg - Shenandoah Valley Tourism</header>
+            
+            <nav>
+                <div>
+                    <a href="downtown.html">A Downtown Stroll</a>
+                </div>
+                
+                <div>
+                    <a href="jmu.html">James Madison University</a>
+                </div>
+                
+                <div>
+                    <a href="links.html">Popular Restaurants/Bar</a> 
+                </div>
+                
+                <div>
+                    <a href="photos.html">Experience More</a>
+                </div>
+            </nav>
+            
+            <div class="pic1">
+                <img src="images/home/downtown-harrisonburg-new.png" alt="View of Downtown Harrisonburg on a sunny day.">
+            </div>
+            
+            <div class="pic2">
+                <img src="images/home/james-madison-new.jpg" alt="View of James Madison University main campus in the fall."> 
+                <br><p>Get views like these only in the Heart of Harrisonburg</p>
+            </div>
+            
+            <aside>
+                <p style="font-size:30px"><br><strong>Welcome!</strong></p>
+                
+                <p style="font-size:20px">We are so happy you have chosen Heart of Harrisonburg - Shenandoah Valley Tourism as your guide through the beasutiful city of Harrisonburg. Here you will be able to find out more about what exciting events happen downtown,  how James Madison University plays a big roll in our community, some fun restaurants and bars that are highly recomended, and a personal look into experiences found in the city. We hope you find the city of Harrisonburg to be a desirable destination to accomidate all needs across all demographics. In addition, we hope you're able to get a taste of what it is like to live in our city by visiting our site. </p>
+            </aside>
+            
+            <footer>
+                <p>
+                Heart Of Harrisonburg was established in 2009 <br>
+                We have aided travlerers in making the most out of their experiences made in Harrisonburg Virginia and strive to continue doing so. 
+                <br>
+                 Our Team of Online Tourist Guides is happy to answer any questions through email at <a href="mailto:heartofharrisonburg@gmail.com" class="non-nav-link">heartofharrisonburg@gmail.com</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>  
+
+            
+                
